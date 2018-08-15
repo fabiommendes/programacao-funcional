@@ -4,8 +4,8 @@ Tópicos Especiais em Programação: Programação funcional
 
 Este é o Git da disciplina Tópicos Especiais em Programação: Programação 
 Funcional. Aqui será  o material produzido em sala de aula assim como tarefas,
-wiki e discussões. Este arquivo contêm informações básicas sobre a disciplina e o 
-plano de ensino do semestre.
+wiki e discussões. Este arquivo contêm informações básicas sobre a disciplina e 
+o plano de ensino do semestre.
 
 
 Informações básicas
@@ -62,8 +62,6 @@ Este curso utiliza GitHub para gerenciar o curso. A comunicação com a turma é
 feita através de issues no repositório do Github. Habilite a funcionalidade 
 "Watch" no repositório para receber notificações sobre atualizações.
 
-Google Classroom:
-    http://classroom.google.com/ - Código de inscrição: 1byukn
 Github:
     http://github.com/fabiommendes/programacao-funcional/
 
@@ -74,13 +72,10 @@ Critérios de avaliação
 A avaliação consiste em 1 prova, 2 trabalhos e exercícios segundo a 
 proporção:
 
-    NotaTotal = 2 * P1 + T1 + T2 + ET
+    NotaTotal = 3 * P1 + 2.5 * T1 + 2.5 * T2 + 2 * ET
 
 Onde temos P1 representa as provas, T1 e T2 são os trabalhos e ET é a soma dos 
 exercícios.
-
-300
----
 
 Prova substitutiva e faltas
 ---------------------------
@@ -123,225 +118,197 @@ distribuição (ou o Brew, no caso do OS X).
 Cronograma de atividades
 ========================
 
-+--------+-------+--------------------------------------------------------+
-| Semana | Data  |                          Aula                          |
-+========+=======+========================================================+
-| 1      | 14/08 | Início das aulas – Apresentação do curso               |
-|        |       |                                                        |
-|        |       | * Funcional vs Imperativo                              |
-|        |       | * Python funcional                                     |
-+--------+-------+--------------------------------------------------------+
-|        | 16/08 | Python funcional com sidekick                          |
-|        |       |                                                        |
-|        |       | * Pipeline de funções                                  |
-|        |       | * Composição de funções                                |
-|        |       | * Aplicação parcial e curying                          |
-+--------+-------+--------------------------------------------------------+
-| 2      | 21/08 | ADTs                                                   |
-|        |       |                                                        |
-|        |       | * Tipos algébricos em Python                           |
-|        |       | * Ágebra de tipos                                      |
-|        |       | * Maybe e Result                                       |
-+--------+-------+--------------------------------------------------------+
-|        | 23/08 | Controle de erros funcional                            |
-|        |       |                                                        |
-|        |       | * Repetições                                           |
-|        |       | * Condicionais                                         |
-+--------+-------+--------------------------------------------------------+
++--------+-------+-------------------------------------------+
+| Semana | Data  |                   Aula                    |
++========+=======+===========================================+
+| 1      | 14/08 | Início das aulas – Apresentação do curso  |
+|        |       |                                           |
+|        |       | * Funcional vs Imperativo                 |
+|        |       | * Python funcional                        |
++--------+-------+-------------------------------------------+
+|        | 16/08 | Python funcional com sidekick             |
+|        |       |                                           |
+|        |       | * Pipeline de funções                     |
+|        |       | * Composição de funções                   |
+|        |       | * Aplicação parcial e curying             |
++--------+-------+-------------------------------------------+
+| 2      | 21/08 | ADTs                                      |
+|        |       |                                           |
+|        |       | * Tipos algébricos em Python              |
+|        |       | * Ágebra de tipos                         |
+|        |       | * Maybe e Result                          |
++--------+-------+-------------------------------------------+
+|        | 23/08 | Controle de erros funcional               |
+|        |       |                                           |
+|        |       | * Maybe                                   |
+|        |       | * Result                                  |
++--------+-------+-------------------------------------------+
+| 3      | 28/08 | Listas                                    |
+|        |       |                                           |
+|        |       | * Listas como ADTs                        |
+|        |       | * Listas simplemente encadeadas           |
+|        |       | * Estruturas de dados imutáveis           |
++--------+-------+-------------------------------------------+
+|        | 30/08 | Laços e repetições                        |
+|        |       |                                           |
+|        |       | * Compreensão de listas                   |
+|        |       | * Map e reduce                            |
+|        |       | * Recursão                                |
++--------+-------+-------------------------------------------+
+| 4      | 04/09 | ELM                                       |
+|        |       |                                           |
+|        |       | * Introdução ao ELM                       |
+|        |       | * Gerando HTML                            |
+|        |       | * Sintaxe e tipos básicos                 |
++--------+-------+-------------------------------------------+
+|        | 06/09 | Tipos em ELM                              |
+|        |       |                                           |
+|        |       | * "Records" e "union types"               |
+|        |       | * Expressões condicionais                 |
+|        |       | * Tipos básicos como ADTs                 |
+|        |       | * Desestruturação                         |
++--------+-------+-------------------------------------------+
+| 5      | 11/09 | Funções em ELM                            |
+|        |       |                                           |
+|        |       | * Auto-curying                            |
+|        |       | * Lambdas                                 |
+|        |       | * Operadores de funções                   |
+|        |       | * Assinatura de funções                   |
++--------+-------+-------------------------------------------+
+|        | 13/09 | Arquitetura Elm (TEA)                     |
+|        |       |                                           |
+|        |       | * Modelos e Mensagens,                    |
+|        |       | * View e update                           |
+|        |       | * Exemplo: "TODO List"                    |
++--------+-------+-------------------------------------------+
+| 6      | 11/09 | Jogos em ELM                              |
+|        |       |                                           |
+|        |       | * Canvas                                  |
+|        |       | * Pong                                    |
++--------+-------+-------------------------------------------+
+|        | 13/09 | Jogos em ELM                              |
+|        |       |                                           |
+|        |       | * Continuação...                          |
++--------+-------+-------------------------------------------+
+| 7      | 18/09 | JSON                                      |
+|        |       |                                           |
+|        |       | * JSON vs linguagens estáticas            |
+|        |       | * Convertendo para JSON                   |
+|        |       | * Lendo JSON                              |
++--------+-------+-------------------------------------------+
+|        | 20/09 | Consumindo uma API                        |
+|        |       |                                           |
+|        |       | * Lendo uma API                           |
+|        |       | * Enviando e recebendo requisições        |
++--------+-------+-------------------------------------------+
+| 8      | 25/09 | Semana Universitária                      |
++--------+-------+-------------------------------------------+
+|        | 27/09 |                                           |
++--------+-------+-------------------------------------------+
+| 9      | 02/10 | Estruturas de dados imutáveis             |
+|        |       |                                           |
+|        |       | * Operações com listas                    |
+|        |       | * Processamento de listas                 |
++--------+-------+-------------------------------------------+
+|        | 04/10 | Implementando uma estrutura de dados      |
+|        |       |                                           |
+|        |       | * Fita                                    |
++--------+-------+-------------------------------------------+
+| 10     | 09/10 | Publicando pacotes ELM                    |
+|        |       |                                           |
+|        |       | * Estrutura de módulos                    |
+|        |       | * Documentação                            |
+|        |       | * Elm package                             |
++--------+-------+-------------------------------------------+
+|        | 11/10 | Interação com Javascript                  |
+|        |       |                                           |
+|        |       | * Sistema de "ports"                      |
+|        |       | * Interagindo com bibliotecas JS          |
+|        |       | * HTML keyed e lazy                       |
++--------+-------+-------------------------------------------+
+| 11     | 16/10 | Intepretador Brainfuck                    |
+|        |       |                                           |
+|        |       | * Lendo entrada do usuário                |
+|        |       | * Manipulando a fita                      |
+|        |       | * Loops                                   |
++--------+-------+-------------------------------------------+
+|        | 18/10 | Interpretador Brainfuck                   |
+|        |       |                                           |
+|        |       | * Continuação...                          |
++--------+-------+-------------------------------------------+
+| 12     | 23/10 | Introdução ao Haskell                     |
+|        |       |                                           |
+|        |       | * Histórico                               |
+|        |       | * Sintaxe do Haskell                      |
+|        |       | * Haskell vs. ELM (principais diferenças) |
++--------+-------+-------------------------------------------+
+|        | 25/10 | Funções                                   |
+|        |       |                                           |
+|        |       | * Pattern matching e guardas              |
+|        |       | * Recursão em Haskell                     |
+|        |       | * Otimização para recursão de cauda       |
++--------+-------+-------------------------------------------+
+| 13     | 30/10 | Haskell prática                           |
+|        |       |                                           |
+|        |       | * Scotty                                  |
+|        |       | * Servidor de API simples                 |
++--------+-------+-------------------------------------------+
+|        | 01/11 | Módulos                                   |
+|        |       |                                           |
+|        |       | * Carregando módulos                      |
+|        |       | * Criando módulos                         |
++--------+-------+-------------------------------------------+
+| 14     | 06/11 | Recursão                                  |
+|        |       |                                           |
+|        |       | * Recursão em Haskell                     |
+|        |       | * Otimização para recursão de cauda       |
++--------+-------+-------------------------------------------+
+|        | 08/11 | Sistema de tipos                          |
+|        |       |                                           |
+|        |       | * Anotações de tipos                      |
+|        |       | * Derivação                               |
+|        |       | * Estruturas de dados recursivas          |
++--------+-------+-------------------------------------------+
+| 15     | 13/11 | Typeclasses                               |
+|        |       |                                           |
+|        |       | * Derivação de classes                    |
+|        |       | * Functores                               |
+|        |       | * Criando próprias classes                |
++--------+-------+-------------------------------------------+
+|        | 15/11 | **Feriado:** Proclamação da República     |
++--------+-------+-------------------------------------------+
+| 16     | 20/11 | IO                                        |
+|        |       |                                           |
+|        |       | * "Hello World"                           |
+|        |       | * Notação "do"                            |
+|        |       | * Entrada e saída                         |
++--------+-------+-------------------------------------------+
+|        | 22/11 | Modelando efeitos                         |
+|        |       |                                           |
+|        |       | * Contexto de uma computação              |
+|        |       | * Functores                               |
+|        |       | * Aplicativos                             |
+|        |       | * Monóides                                |
++--------+-------+-------------------------------------------+
+| 17     | 27/11 | Mônadas                                   |
+|        |       |                                           |
+|        |       | * Maybe e List                            |
+|        |       | * Lidando com contexto                    |
+|        |       | * Composição de funções                   |
+|        |       | * Operadores de mônadas                   |
++--------+-------+-------------------------------------------+
+|        | 29/11 | Leis Monádicas                            |
+|        |       |                                           |
+|        |       | * Leis de Mônadas                         |
+|        |       | * Notação "do" e mônadas                  |
+|        |       | * Mônadas em todos os lugares             |
++--------+-------+-------------------------------------------+
+| 18     | 04/12 | Prova                                     |
++--------+-------+-------------------------------------------+
+|        | 06/12 | Apresentação dos projetos                 |
++--------+-------+-------------------------------------------+
 
-.. todo
 
-    +--------+-------+--------------------------------------------------------+
-    | 3      | 27/08 | Listas                                                 |
-    |        |       |                                                        |
-    |        |       | * Acessando elementos da lista                         |
-    |        |       | * Iterando sobre listas                                |
-    |        |       | * Criando listas dinamicamente                         |
-    +--------+-------+--------------------------------------------------------+
-    |        | 28/08 | Dicionários                                            |
-    |        |       |                                                        |
-    |        |       | * Acessando elementos da lista                         |
-    |        |       | * Iterando sobre listas                                |
-    |        |       | * Criando listas dinamicamente                         |
-    +--------+-------+--------------------------------------------------------+
-    |        | 30/08 | Strings                                                |
-    |        |       |                                                        |
-    |        |       | * Manipulação de texto                                 |
-    |        |       | * Descobrindo informações sobre strings                |
-    |        |       | * Operações básicas                                    |
-    |        |       | * Interpolação                                         |
-    +--------+-------+--------------------------------------------------------+
-    | 4      | 30/08 | Análise sintática                                      |
-    |        |       |                                                        |
-    |        |       | * Gramática                                            |
-    |        |       | * Especificação de regras gramaticais                  |
-    |        |       | * Hierarquia de linguagens                             |
-    |        |       | * Sintaxe vs semântica                                 |
-    +--------+-------+--------------------------------------------------------+
-    |        | 29/03 | Laboratório de análise sintática: Gerador de lero lero |
-    |        |       |                                                        |
-    |        |       | * Formalização de uma gramática                        |
-    |        |       | * Produções válidas                                    |
-    |        |       | * Gerador de textos aleatórios                         |
-    +--------+-------+--------------------------------------------------------+
-    | 5      | 03/04 | Gramáticas livres de contexto                          |
-    |        |       |                                                        |
-    |        |       | * Regras de produção                                   |
-    |        |       | * Sintaxe do Ox                                        |
-    |        |       | * Calculadora                                          |
-    +--------+-------+--------------------------------------------------------+
-    |        | 05/04 | Árvores sintáticas e representação de código           |
-    |        |       |                                                        |
-    |        |       | * S-expressions                                        |
-    |        |       | * ADTs                                                 |
-    |        |       | * Classes                                              |
-    +--------+-------+--------------------------------------------------------+
-    | 6      | 10/04 | Laboratório: Calculadora avançada                      |
-    |        |       |                                                        |
-    |        |       | * Operadores e expressões                              |
-    |        |       | * Representação intermediária                          |
-    |        |       | * Precedência                                          |
-    |        |       | * Análise semântica                                    |
-    +--------+-------+--------------------------------------------------------+
-    |        | 12/04 | Emissão de código                                      |
-    |        |       |                                                        |
-    |        |       | * Representação intermediária                          |
-    |        |       | * Geração de código                                    |
-    |        |       | * Controle de formatação e indentação                  |
-    |        |       | * Funções auxiliares para emissão de código no Ox      |
-    +--------+-------+--------------------------------------------------------+
-    | 7      | 17/04 | Gramática do Python                                    |
-    |        |       |                                                        |
-    |        |       | * Tokenizador                                          |
-    |        |       | * Arquivo de gramática                                 |
-    |        |       | * Árvore sintática de um código “vivo”                 |
-    |        |       | * Gramática do Python no Ox                            |
-    +--------+-------+--------------------------------------------------------+
-    |        | 19/04 | Desenho de linguagens de programação                   |
-    |        |       | * Expressões e declarações                             |
-    |        |       | * Mutabilidade                                         |
-    |        |       | * Escopo                                               |
-    |        |       | * Sistema de tipos                                     |
-    |        |       | * Estruturas de controle                               |
-    +--------+-------+--------------------------------------------------------+
-    | 8      | 24/04 | Projeto: Linguagem funcional                           |
-    |        |       |                                                        |
-    |        |       | * Sintaxe, semântica e sistema de tipos                |
-    |        |       | * Integração com o Python                              |
-    |        |       | * Estruturas de controle básicas                       |
-    |        |       | * Recursos para programação funcional                  |
-    |        |       | * Exemplos de programas                                |
-    +--------+-------+--------------------------------------------------------+
-    |        | 26/04 | **Avaliação: Lexer e parser**                          |
-    |        |       |                                                        |
-    +--------+-------+--------------------------------------------------------+
-    | 9      | 01/05 | *Feriado - Dia do Trabalho*                            |
-    |        |       |                                                        |
-    +--------+-------+--------------------------------------------------------+
-    |        | 03/05 | Autômatos                                              |
-    |        |       |                                                        |
-    |        |       | * Introdução a autômatos                               |
-    |        |       | * Autômato determinístico finito                       |
-    |        |       | * Autômatos para linguagens regulares                  |
-    +--------+-------+--------------------------------------------------------+
-    | 10     | 08/05 | Hierarquia de Chomsky                                  |
-    |        |       |                                                        |
-    |        |       | * Modelos de computação                                |
-    |        |       | * Tipos de autômatos                                   |
-    |        |       | * Hierarquia de linguagens formais                     |
-    |        |       | * Máquina de Turing                                    |
-    +--------+-------+--------------------------------------------------------+
-    |        | 10/05 | Laboratório: JSON                                      |
-    |        |       |                                                        |
-    |        |       | * Gramática como autômato                              |
-    |        |       | * Separação entre a análise léxica e sintática         |
-    |        |       | * Implementação do JSON em Ox                          |
-    +--------+-------+--------------------------------------------------------+
-    | 11     | 17/05 | Cremilda: Lexer                                        |
-    |        |       |                                                        |
-    |        |       | * Tipos atômicos (numerais, strings, etc)              |
-    |        |       | * Símbolos                                             |
-    |        |       | * Operadores e delimitadores                           |
-    +--------+-------+--------------------------------------------------------+
-    |        | 19/05 | Cremilda: Expressões e declarações simples             |
-    |        |       |                                                        |
-    |        |       | * Chamada de função                                    |
-    |        |       | * Tradução para Python                                 |
-    |        |       | * Aninhamento                                          |
-    |        |       | * Declarações                                          |
-    +--------+-------+--------------------------------------------------------+
-    | 12     | 22/05 | Cremilda: Estruturas condicionais simples              |
-    |        |       |                                                        |
-    |        |       | * Linguagem baseada em expressões                      |
-    |        |       | * Palavras reservadas                                  |
-    |        |       | * Operadores booleanos "curto-circuito"                |
-    |        |       | * Condicional if/else                                  |
-    +--------+-------+--------------------------------------------------------+
-    |        | 24/05 | **Avaliação: gramáticas livres de contexto**           |
-    |        |       |                                                        |
-    +--------+-------+--------------------------------------------------------+
-    | 13     | 29/05 | Checagem de tipos                                      |
-    |        |       |                                                        |
-    |        |       | * Sistemas de tipos                                    |
-    |        |       | * Coerções                                             |
-    |        |       | * Polimorfismo                                         |
-    |        |       | * Type dispatch                                        |
-    +--------+-------+--------------------------------------------------------+
-    |        | 31/05 | *Feriado - Corpus Christi*                             |
-    |        |       |                                                        |
-    +--------+-------+--------------------------------------------------------+
-    | 14     | 05/06 | Cremilda: declaração de tipos                          |
-    |        |       |                                                        |
-    |        |       | * Aliases                                              |
-    |        |       | * Union types                                          |
-    |        |       | * Tuplas                                               |
-    +--------+-------+--------------------------------------------------------+
-    |        | 07/06 | Cremilda: Criação de tipos dinâmica                    |
-    |        |       |                                                        |
-    |        |       | * Classes dinâmicas                                    |
-    |        |       | * Dicionário de tipos                                  |
-    |        |       | * Tipos na biblioteca Sidekick                         |
-    +--------+-------+--------------------------------------------------------+
-    | 15     | 12/06 | Cremilda: declaração de módulos                        |
-    |        |       |                                                        |
-    |        |       | * Símbolos públicos                                    |
-    |        |       | * Imports                                              |
-    |        |       | * Integração com o Python                              |
-    +--------+-------+--------------------------------------------------------+
-    |        | 14/06 | Cremilda: runtime                                      |
-    |        |       |                                                        |
-    |        |       | * Tipos e funções nativas                              |
-    |        |       | * Módulos padrão                                       |
-    |        |       | * Compilação para Python                               |
-    +--------+-------+--------------------------------------------------------+
-    | 16     | 19/06 | Máquinas virtuais                                      |
-    |        |       |                                                        |
-    |        |       | * Objetivos de compilação                              |
-    |        |       | * Máquina virtual Python                               |
-    |        |       | * Leitura de Bytcodes                                  |
-    |        |       | * Manipulação de Bytcodes                              |
-    +--------+-------+--------------------------------------------------------+
-    |        | 21/06 | Cremilda: blocos let                                   |
-    |        |       |                                                        |
-    |        |       | * Atribuição de variáveis                              |
-    |        |       | * Controle de escopo                                   |
-    |        |       | * Forma SSA                                            |
-    |        |       | * Descontrutores                                       |
-    +--------+-------+--------------------------------------------------------+
-    | 17     | 26/06 | Cremilda: blocos case                                  |
-    |        |       |                                                        |
-    |        |       | * Despacho por tipo e sub-tipo                         |
-    |        |       | * Switch/case                                          |
-    |        |       | * Desconstrutores                                      |
-    +--------+-------+--------------------------------------------------------+
-    |        | 28/06 | **Avaliação Final**                                    |
-    |        |       |                                                        |
-    +--------+-------+--------------------------------------------------------+
-    | 18     | 03/07 | Livre                                                  |
-    |        |       |                                                        |
-    +--------+-------+--------------------------------------------------------+
-    |        | 05/07 | Revisão de nota                                        |
-    |        |       |                                                        |
-    +--------+-------+--------------------------------------------------------+
+
 
 Obs.: O cronograma está sujeito a alterações.
