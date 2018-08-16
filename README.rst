@@ -39,7 +39,8 @@ Ementa
 Horário das aulas e atendimento
 ===============================
 
-Aulas teóricas e de exercícios: terças e quintas-feiras às 14h 
+Aulas teóricas e de exercícios: terças e quintas-feiras às 16h
+Sala: FGA-I7
 Atendimento: LAPPIS
 
 
