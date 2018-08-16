@@ -28,24 +28,12 @@ Créditos:
 Ementa
 ======
 
-* Princípios fundamentais de construção de programas.
-* Construção de algoritmos e sua representação em pseudocódigo e linguagens de alto nível.
-* Noções de abstração.
-* Especificação de variáveis e funções.
-* Testes e depuração.
-* Padrões de soluções em programação.
-* Noções de programação estruturada.
-* Identificadores e tipos.
-* Operadores e expressões.
-* Estruturas de controle: condicional e repetição.
-* Entrada e saída de dados.
-* Estruturas de dados estáticas: agregados homogêneos e heterogêneos.
-* Iteração e recursão.
-* Noções de análise de custo e complexidade.
-* Desenvolvimento sistemático e implementação de programas.
-* Estruturação, depuração, testes e documentação de programas.
-* Resolução de problemas.
-* Aplicações em casos reais e questões ambientais.
+* Princípios de programação funcional
+* Composição de funções
+* Curying e aplicação parcial
+* Tipos imutáveis
+* Tipos algébricos
+* Mônadas
 
 
 Horário das aulas e atendimento
@@ -72,7 +60,12 @@ Critérios de avaliação
 A avaliação consiste em 1 prova, 2 trabalhos e exercícios segundo a 
 proporção:
 
-    NotaTotal = 3 * P1 + 2.5 * T1 + 2.5 * T2 + 2 * ET
+* Prova final: 30%
+* Trabalhos: total de 50%, dividido nos pontos de controle
+    * PC1: 15%
+    * PC2: 25%
+    * PC3: 60%
+* Exercícios: 20%
 
 Onde temos P1 representa as provas, T1 e T2 são os trabalhos e ET é a soma dos 
 exercícios.
@@ -307,8 +300,6 @@ Cronograma de atividades
 +--------+-------+-------------------------------------------+
 |        | 06/12 | Apresentação dos projetos                 |
 +--------+-------+-------------------------------------------+
-
-
 
 
 Obs.: O cronograma está sujeito a alterações.
