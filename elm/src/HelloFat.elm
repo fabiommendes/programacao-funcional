@@ -9,6 +9,16 @@ import Html.Attributes exposing (..)
 import Html.Events exposing (..)
 
 
+css =
+    """
+div {
+    font-family: Roboto;
+    font-size: 25px;
+    color: magenta;
+}
+"""
+
+
 main =
     Browser.sandbox
         { init = init
@@ -70,11 +80,14 @@ view m =
             String.fromInt (fat m.value)
     in
     div []
-        [ Html.form [ onSubmit OnSend ]
-            [ inputElement m
-            , inputButton
+        [ Html.node "style" [] [ text css ]
+        , div []
+            [ Html.form [ onSubmit OnSend ]
+                [ inputElement m
+                , inputButton
+                ]
+            , div [] [ text ("Fat: " ++ value) ]
             ]
-        , div [] [ text ("Fat: " ++ value) ]
         ]
 
 
