@@ -1,0 +1,63 @@
+Exercícios em ELM
+
+1) Crie um programa que mostre a mensagem "Hello World!"
+no Elm reactor.
+
+2) Crie um programa que pergunte o nome do usuário em um
+input e mostre "Hello <nome>!"
+
+3) Crie um programa que pergunte dois números em duas caixas
+de input e mostre a média entre eles.
+
+4) Crie um programa que some todos os números de uma lista.
+
+5) Crie um programa que some o quadrado dos números de uma
+lista.
+
+6) Crie um programa que calcule a exponencial de um número
+utilizando a fórmula de Taylor:
+
+    exp(x) = 1 + x + x^2 / 2! + x^3 / 3! + ...
+
+Use uma aproximação de 30 termos.
+
+7) Crie um programa que calcule a raiz quadrada de um 
+número x utilizando a fórmula de recorrência:
+
+    r = (r^2 + x) / (2 * r)
+
+onde r é uma aproximação da raiz. Faça a recorrência até
+obter dois valores de r iguais.
+
+8) Crie um programa que pergunte um número inteiro n e
+mostre o n-ésimo número de Fibonacci
+
+9) Crie um programa que pergunte um número inteiro n e
+mostre a sequência dos n primeiros números de Fibonacci
+
+10) Crie um programa que pergunte um número inteiro n e
+mostre o n-ésimo número de Fibonacci. Sua implementação
+deve funcionar para valores de n grandes (n > 50).
+
+11) Crie um programa que calcule a sequência de Collatz a 
+partir de um número n até chegar no valor de 1. A sequência
+de Collatz é dada pela regra de recursão:
+
+    n -> | n / 2; se n for par
+         | 3 * n + 1; se n for ímpar
+
+Dica: tente gerar uma lista de HTML como:
+
+    <ul>
+        <li>5</li>
+        <li>16</li>
+        <li>8</li>
+        <li>4</li>
+        <li>2</li>
+        <li>1</li>
+        <li>4</li>
+        <li>2</li>
+        <li>1</li>
+        <li>...</li>
+    </ul>
+        
