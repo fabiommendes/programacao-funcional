@@ -110,7 +110,15 @@ inputButton =
 
 
 fat n =
-    fatAcc n 1
+    let
+        fat2 m acc =
+            if m == 0 then
+                acc
+
+            else
+                fat2 (m - 1) (acc * m)
+    in
+    fat2 n 1
 
 
 {-| Tradução js:
