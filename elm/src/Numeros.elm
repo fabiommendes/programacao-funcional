@@ -97,7 +97,7 @@ values n =
         [ div []
             [ text ("Fat: " ++ String.fromInt (fat n)) ]
         , viewFibs n
-        , div [] [text ("Exp: " ++ (String.fromFloat (exp (toFloat n))) )]
+        , div [] [ text ("Exp: " ++ String.fromFloat (exp (toFloat n))) ]
         ]
 
 
@@ -171,7 +171,7 @@ exp : Float -> Float
 exp x =
     let
         term : Int -> Float
-        term n = 
+        term n =
             x ^ toFloat n / toFloat (fat n)
     in
     List.sum <|
