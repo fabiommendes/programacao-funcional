@@ -23,7 +23,7 @@ type alias Person =
 
 type Color
     = NamedColor String
-    | HexColor (Int, Int, Int)
+    | HexColor ( Int, Int, Int )
 
 
 example =
@@ -41,19 +41,36 @@ example =
 colorDecoder : D.Decoder Color
 colorDecoder =
     D.oneOf
-        [ D.map HexColor intColorDecoder
+        [ hexColorDecoder
         , D.map NamedColor D.string
         ]
 
 
 intColorDecoder : D.Decoder Int
 intColorDecoder =
-    D.int |> D.andThen (\x -> 
-        if x >= 0 && x <= 255 then
-            D.succeed x
-        else
-            D.fail "Wrong interval for color"
-    )
+    D.int
+        |> D.andThen
+            (\x ->
+                if x >= 0 && x <= 255 then
+                    D.succeed x
+
+                else
+                    D.fail "Wrong interval for color"
+            )
+
+
+hexColorDecoder : D.Decoder Color
+hexColorDecoder =
+    D.list intColorDecoder
+        |> D.andThen
+            (\x ->
+                case x of
+                    [ r, g, b ] ->
+                        D.succeed (HexColor ( r, g, b ))
+
+                    _ ->
+                        D.fail "Hex colors must have exactly 3 components"
+            )
 
 
 personDecoder : D.Decoder Person
