@@ -1,0 +1,7 @@
+Configuring bsb-http-chunked-0.0.0.4...
+Preprocessing library for bsb-http-chunked-0.0.0.4..
+Building library for bsb-http-chunked-0.0.0.4..
+[1 of 1] Compiling Data.ByteString.Builder.HTTP.Chunked ( Data/ByteString/Builder/HTTP/Chunked.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/ByteString/Builder/HTTP/Chunked.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/bsb-http-chunked-0.0.0.4-APmSGNCvcZO9g0Zx1dmgPc
+Registering library for bsb-http-chunked-0.0.0.4..

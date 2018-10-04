@@ -1,0 +1,14 @@
+Configuring regex-compat-0.95.1...
+Preprocessing library for regex-compat-0.95.1..
+Building library for regex-compat-0.95.1..
+[1 of 1] Compiling Text.Regex       ( Text/Regex.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Text/Regex.o )
+
+[;1mText/Regex.hs:50:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wtabs[0m[0m[;1m][0m[0m[;1m
+    Tab character found here, and in 24 further locations.
+    Please use spaces instead.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m50 |[0m[0m [;1m[35m        [0m[0m      -- end of individual lines respectively, and @\'.\'@ does /not/
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^[0m[0m
+[0m[0m[0mignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/regex-compat-0.95.1-GpayP5pCY7oFkOLgNVrkag
+Registering library for regex-compat-0.95.1..

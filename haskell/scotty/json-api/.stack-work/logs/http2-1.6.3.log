@@ -1,0 +1,35 @@
+Configuring http2-1.6.3...
+Preprocessing library for http2-1.6.3..
+Building library for http2-1.6.3..
+[ 1 of 29] Compiling Network.HPACK.Builder ( Network/HPACK/Builder.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Builder.o )
+[ 2 of 29] Compiling Network.HPACK.Huffman.Bit ( Network/HPACK/Huffman/Bit.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Huffman/Bit.o )
+[ 3 of 29] Compiling Network.HPACK.Huffman.ByteString ( Network/HPACK/Huffman/ByteString.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Huffman/ByteString.o )
+[ 4 of 29] Compiling Network.HPACK.Huffman.Params ( Network/HPACK/Huffman/Params.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Huffman/Params.o )
+[ 5 of 29] Compiling Network.HPACK.Huffman.Table ( Network/HPACK/Huffman/Table.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Huffman/Table.o )
+[ 6 of 29] Compiling Network.HPACK.Huffman.Tree ( Network/HPACK/Huffman/Tree.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Huffman/Tree.o )
+[ 7 of 29] Compiling Network.HPACK.Token ( Network/HPACK/Token.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Token.o )
+[ 8 of 29] Compiling Network.HPACK.Types ( Network/HPACK/Types.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Types.o )
+[ 9 of 29] Compiling Network.HPACK.Table.Entry ( Network/HPACK/Table/Entry.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Table/Entry.o )
+[10 of 29] Compiling Network.HPACK.Table.Static ( Network/HPACK/Table/Static.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Table/Static.o )
+[11 of 29] Compiling Network.HPACK.Table.RevIndex ( Network/HPACK/Table/RevIndex.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Table/RevIndex.o )
+[12 of 29] Compiling Network.HPACK.Buffer ( Network/HPACK/Buffer.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Buffer.o )
+[13 of 29] Compiling Network.HPACK.Huffman.Encode ( Network/HPACK/Huffman/Encode.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Huffman/Encode.o )
+[14 of 29] Compiling Network.HPACK.Huffman.Decode ( Network/HPACK/Huffman/Decode.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Huffman/Decode.o )
+[15 of 29] Compiling Network.HPACK.Huffman ( Network/HPACK/Huffman.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Huffman.o )
+[16 of 29] Compiling Network.HPACK.Table.Dynamic ( Network/HPACK/Table/Dynamic.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Table/Dynamic.o )
+[17 of 29] Compiling Network.HPACK.Table ( Network/HPACK/Table.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/Table.o )
+[18 of 29] Compiling Network.HPACK.HeaderBlock.Integer ( Network/HPACK/HeaderBlock/Integer.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/HeaderBlock/Integer.o )
+[19 of 29] Compiling Network.HPACK.HeaderBlock.Encode ( Network/HPACK/HeaderBlock/Encode.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/HeaderBlock/Encode.o )
+[20 of 29] Compiling Network.HPACK.HeaderBlock.Decode ( Network/HPACK/HeaderBlock/Decode.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/HeaderBlock/Decode.o )
+[21 of 29] Compiling Network.HPACK.HeaderBlock ( Network/HPACK/HeaderBlock.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK/HeaderBlock.o )
+[22 of 29] Compiling Network.HPACK    ( Network/HPACK.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HPACK.o )
+[23 of 29] Compiling Network.HTTP2.Priority.PSQ ( Network/HTTP2/Priority/PSQ.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HTTP2/Priority/PSQ.o )
+[24 of 29] Compiling Network.HTTP2.Priority.Queue ( Network/HTTP2/Priority/Queue.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HTTP2/Priority/Queue.o )
+[25 of 29] Compiling Network.HTTP2.Types ( Network/HTTP2/Types.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HTTP2/Types.o )
+[26 of 29] Compiling Network.HTTP2.Priority ( Network/HTTP2/Priority.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HTTP2/Priority.o )
+[27 of 29] Compiling Network.HTTP2.Encode ( Network/HTTP2/Encode.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HTTP2/Encode.o )
+[28 of 29] Compiling Network.HTTP2.Decode ( Network/HTTP2/Decode.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HTTP2/Decode.o )
+[29 of 29] Compiling Network.HTTP2    ( Network/HTTP2.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HTTP2.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/http2-1.6.3-LEK7EGfls3UF1GiPDdO5K5
+Registering library for http2-1.6.3..

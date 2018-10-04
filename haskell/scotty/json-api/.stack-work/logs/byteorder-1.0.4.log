@@ -1,0 +1,7 @@
+Configuring byteorder-1.0.4...
+Preprocessing library for byteorder-1.0.4..
+Building library for byteorder-1.0.4..
+[1 of 1] Compiling System.ByteOrder ( System/ByteOrder.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/ByteOrder.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/byteorder-1.0.4-JGHrMy8StI888DOmmSVbRy
+Registering library for byteorder-1.0.4..

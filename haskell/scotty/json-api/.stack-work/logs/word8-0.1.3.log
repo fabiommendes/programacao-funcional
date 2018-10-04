@@ -1,0 +1,8 @@
+Configuring word8-0.1.3...
+Preprocessing library for word8-0.1.3..
+Building library for word8-0.1.3..
+[1 of 2] Compiling Data.Char8       ( Data/Char8.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Char8.o )
+[2 of 2] Compiling Data.Word8       ( Data/Word8.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Word8.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/word8-0.1.3-Psnh2l3FAaIFxTGKIJTuU
+Registering library for word8-0.1.3..

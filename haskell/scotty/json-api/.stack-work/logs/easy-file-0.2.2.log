@@ -1,0 +1,26 @@
+Configuring easy-file-0.2.2...
+Preprocessing library for easy-file-0.2.2..
+Building library for easy-file-0.2.2..
+[1 of 4] Compiling System.EasyFile.Directory ( System/EasyFile/Directory.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/EasyFile/Directory.o )
+
+[;1mSystem/EasyFile/Directory.hs:37:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m37 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[2 of 4] Compiling System.EasyFile.FilePath ( System/EasyFile/FilePath.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/EasyFile/FilePath.o )
+[3 of 4] Compiling System.EasyFile.Missing ( System/EasyFile/Missing.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/EasyFile/Missing.o )
+
+[;1mSystem/EasyFile/Missing.hs:7:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m7 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m  |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[4 of 4] Compiling System.EasyFile  ( System/EasyFile.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/EasyFile.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/easy-file-0.2.2-4l2xgq1xN4PHgDPMu188oI
+Registering library for easy-file-0.2.2..

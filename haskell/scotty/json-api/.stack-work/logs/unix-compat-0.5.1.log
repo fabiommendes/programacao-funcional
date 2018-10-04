@@ -1,0 +1,14 @@
+Configuring unix-compat-0.5.1...
+Preprocessing library for unix-compat-0.5.1..
+Building library for unix-compat-0.5.1..
+[1 of 8] Compiling System.PosixCompat.Files ( .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/PosixCompat/Files.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/PosixCompat/Files.o )
+[2 of 8] Compiling System.PosixCompat.Temp ( src/System/PosixCompat/Temp.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/PosixCompat/Temp.o )
+[3 of 8] Compiling System.PosixCompat.Time ( src/System/PosixCompat/Time.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/PosixCompat/Time.o )
+[4 of 8] Compiling System.PosixCompat.Types ( src/System/PosixCompat/Types.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/PosixCompat/Types.o )
+[5 of 8] Compiling System.PosixCompat.Extensions ( .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/PosixCompat/Extensions.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/PosixCompat/Extensions.o )
+[6 of 8] Compiling System.PosixCompat.Unistd ( src/System/PosixCompat/Unistd.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/PosixCompat/Unistd.o )
+[7 of 8] Compiling System.PosixCompat.User ( .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/PosixCompat/User.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/PosixCompat/User.o )
+[8 of 8] Compiling System.PosixCompat ( src/System/PosixCompat.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/PosixCompat.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/unix-compat-0.5.1-IZ2l0C7CE13FdrCF8rJfBj
+Registering library for unix-compat-0.5.1..

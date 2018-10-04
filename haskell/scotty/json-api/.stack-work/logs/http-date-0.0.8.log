@@ -1,0 +1,35 @@
+Configuring http-date-0.0.8...
+Preprocessing library for http-date-0.0.8..
+Building library for http-date-0.0.8..
+[1 of 5] Compiling Network.HTTP.Date.Types ( Network/HTTP/Date/Types.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HTTP/Date/Types.o )
+[2 of 5] Compiling Network.HTTP.Date.Parser ( Network/HTTP/Date/Parser.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HTTP/Date/Parser.o )
+[3 of 5] Compiling Network.HTTP.Date.Formatter ( Network/HTTP/Date/Formatter.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HTTP/Date/Formatter.o )
+[4 of 5] Compiling Network.HTTP.Date.Converter ( Network/HTTP/Date/Converter.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HTTP/Date/Converter.o )
+
+[;1mNetwork/HTTP/Date/Converter.hs:7:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m7 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m  |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mNetwork/HTTP/Date/Converter.hs:97:6: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wname-shadowing[0m[0m[;1m][0m[0m[;1m
+    This binding for ‘months’ shadows the existing binding
+      imported from ‘Data.Time’ at Network/HTTP/Date/Converter.hs:9:1-16
+      (and originally defined in ‘time-1.8.0.2:Data.Time.Format.Locale’)[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m97 |[0m[0m     ([;1m[35mmonths[0m[0m, daysArr) = if isLeap yy
+[;1m[34m   |[0m[0m[;1m[35m      ^^^^^^[0m[0m
+[0m[0m[0m
+[;1mNetwork/HTTP/Date/Converter.hs:100:19: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘inlinePerformIO’
+    (imported from Data.ByteString.Internal):
+    Deprecated: "If you think you know what you are doing, use 'unsafePerformIO'. If you are sure you know what you are doing, use 'unsafeDupablePerformIO'. If you enjoy sharing an address space with a malevolent agent of chaos, try 'accursedUnutterablePerformIO'."[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m100 |[0m[0m     findMonth n = [;1m[35minlinePerformIO[0m[0m $ (,) <$> (peekElemOff months n) <*> (peekElemOff daysArr n)
+[;1m[34m    |[0m[0m[;1m[35m                   ^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[5 of 5] Compiling Network.HTTP.Date ( Network/HTTP/Date.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HTTP/Date.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/http-date-0.0.8-IxCBwoc1Wb9A4Fkqp3mzez
+Registering library for http-date-0.0.8..

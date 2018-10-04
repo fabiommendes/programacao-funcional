@@ -1,0 +1,26 @@
+Configuring resourcet-1.2.1...
+Preprocessing library for resourcet-1.2.1..
+Building library for resourcet-1.2.1..
+[1 of 5] Compiling Data.Acquire.Internal ( Data/Acquire/Internal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Acquire/Internal.o )
+[2 of 5] Compiling Control.Monad.Trans.Resource.Internal ( Control/Monad/Trans/Resource/Internal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Control/Monad/Trans/Resource/Internal.o )
+
+[;1mControl/Monad/Trans/Resource/Internal.hs:42:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    Module ‘Control.Monad.Trans.List’ is deprecated:
+      This transformer is invalid on most monads[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m42 |[0m[0m [;1m[35mimport Control.Monad.Trans.List     ( ListT    )[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mControl/Monad/Trans/Resource/Internal.hs:259:46: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m259 |[0m[0m GO(ListT)[;1m[35m[0m[0m
+[;1m[34m    |[0m[0m[;1m[35m                                              ^^^^^[0m[0m
+[0m[0m[0m[3 of 5] Compiling Data.Acquire     ( Data/Acquire.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Acquire.o )
+[4 of 5] Compiling Control.Monad.Trans.Resource ( Control/Monad/Trans/Resource.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Control/Monad/Trans/Resource.o )
+[5 of 5] Compiling UnliftIO.Resource ( UnliftIO/Resource.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/UnliftIO/Resource.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/resourcet-1.2.1-3lsfkgRlfZ78IDedmeqPkQ
+Registering library for resourcet-1.2.1..

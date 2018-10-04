@@ -1,0 +1,9 @@
+Configuring uuid-types-1.0.3...
+Preprocessing library for uuid-types-1.0.3..
+Building library for uuid-types-1.0.3..
+[1 of 3] Compiling Data.UUID.Types.Internal.Builder ( Data/UUID/Types/Internal/Builder.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/UUID/Types/Internal/Builder.o )
+[2 of 3] Compiling Data.UUID.Types.Internal ( Data/UUID/Types/Internal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/UUID/Types/Internal.o )
+[3 of 3] Compiling Data.UUID.Types  ( Data/UUID/Types.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/UUID/Types.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/uuid-types-1.0.3-J03EGG5REdKLR18xPwgEtM
+Registering library for uuid-types-1.0.3..

@@ -1,0 +1,7 @@
+Configuring async-2.2.1...
+Preprocessing library for async-2.2.1..
+Building library for async-2.2.1..
+[1 of 1] Compiling Control.Concurrent.Async ( Control/Concurrent/Async.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Control/Concurrent/Async.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/async-2.2.1-9wa10ZDgApa7ovuWJOFs5L
+Registering library for async-2.2.1..

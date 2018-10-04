@@ -1,0 +1,46 @@
+Configuring wai-extra-3.0.24.3...
+Preprocessing library for wai-extra-3.0.24.3..
+Building library for wai-extra-3.0.24.3..
+[ 1 of 32] Compiling Network.Wai.EventSource.EventStream ( Network/Wai/EventSource/EventStream.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/EventSource/EventStream.o )
+[ 2 of 32] Compiling Network.Wai.EventSource ( Network/Wai/EventSource.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/EventSource.o )
+[ 3 of 32] Compiling Network.Wai.Handler.CGI ( Network/Wai/Handler/CGI.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Handler/CGI.o )
+[ 4 of 32] Compiling Network.Wai.Handler.SCGI ( Network/Wai/Handler/SCGI.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Handler/SCGI.o )
+[ 5 of 32] Compiling Network.Wai.Header ( Network/Wai/Header.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Header.o )
+[ 6 of 32] Compiling Network.Wai.Middleware.AcceptOverride ( Network/Wai/Middleware/AcceptOverride.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/AcceptOverride.o )
+[ 7 of 32] Compiling Network.Wai.Middleware.AddHeaders ( Network/Wai/Middleware/AddHeaders.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/AddHeaders.o )
+[ 8 of 32] Compiling Network.Wai.Middleware.Autohead ( Network/Wai/Middleware/Autohead.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/Autohead.o )
+[ 9 of 32] Compiling Network.Wai.Middleware.CleanPath ( Network/Wai/Middleware/CleanPath.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/CleanPath.o )
+[10 of 32] Compiling Network.Wai.Middleware.Gzip ( Network/Wai/Middleware/Gzip.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/Gzip.o )
+[11 of 32] Compiling Network.Wai.Middleware.HttpAuth ( Network/Wai/Middleware/HttpAuth.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/HttpAuth.o )
+[12 of 32] Compiling Network.Wai.Middleware.Jsonp ( Network/Wai/Middleware/Jsonp.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/Jsonp.o )
+[13 of 32] Compiling Network.Wai.Middleware.Local ( Network/Wai/Middleware/Local.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/Local.o )
+[14 of 32] Compiling Network.Wai.Middleware.MethodOverride ( Network/Wai/Middleware/MethodOverride.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/MethodOverride.o )
+[15 of 32] Compiling Network.Wai.Middleware.MethodOverridePost ( Network/Wai/Middleware/MethodOverridePost.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/MethodOverridePost.o )
+[16 of 32] Compiling Network.Wai.Middleware.RequestLogger.Internal ( Network/Wai/Middleware/RequestLogger/Internal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/RequestLogger/Internal.o )
+[17 of 32] Compiling Network.Wai.Middleware.Rewrite ( Network/Wai/Middleware/Rewrite.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/Rewrite.o )
+[18 of 32] Compiling Network.Wai.Middleware.Routed ( Network/Wai/Middleware/Routed.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/Routed.o )
+[19 of 32] Compiling Network.Wai.Middleware.StreamFile ( Network/Wai/Middleware/StreamFile.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/StreamFile.o )
+[20 of 32] Compiling Network.Wai.Middleware.StripHeaders ( Network/Wai/Middleware/StripHeaders.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/StripHeaders.o )
+[21 of 32] Compiling Network.Wai.Middleware.Timeout ( Network/Wai/Middleware/Timeout.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/Timeout.o )
+[22 of 32] Compiling Network.Wai.Middleware.Vhost ( Network/Wai/Middleware/Vhost.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/Vhost.o )
+[23 of 32] Compiling Network.Wai.Parse ( Network/Wai/Parse.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Parse.o )
+[24 of 32] Compiling Network.Wai.Middleware.RequestLogger ( Network/Wai/Middleware/RequestLogger.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/RequestLogger.o )
+[25 of 32] Compiling Network.Wai.Middleware.RequestLogger.JSON ( Network/Wai/Middleware/RequestLogger/JSON.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/RequestLogger/JSON.o )
+
+[;1mNetwork/Wai/Middleware/RequestLogger/JSON.hs:78:13: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of data constructor ‘SockAddrCan’
+    (imported from Network.Socket, but defined in network-2.6.3.6:Network.Socket.Types):
+    Deprecated: "This will be removed in 3.0"[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m78 |[0m[0m sockToJSON ([;1m[35mSockAddrCan[0m[0m i) =
+[;1m[34m   |[0m[0m[;1m[35m             ^^^^^^^^^^^[0m[0m
+[0m[0m[0m[26 of 32] Compiling Network.Wai.Request ( Network/Wai/Request.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Request.o )
+[27 of 32] Compiling Network.Wai.Middleware.ForceSSL ( Network/Wai/Middleware/ForceSSL.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/ForceSSL.o )
+[28 of 32] Compiling Network.Wai.Middleware.ForceDomain ( Network/Wai/Middleware/ForceDomain.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/ForceDomain.o )
+[29 of 32] Compiling Network.Wai.Middleware.Approot ( Network/Wai/Middleware/Approot.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Middleware/Approot.o )
+[30 of 32] Compiling Network.Wai.Test.Internal ( Network/Wai/Test/Internal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Test/Internal.o )
+[31 of 32] Compiling Network.Wai.Test ( Network/Wai/Test.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Test.o )
+[32 of 32] Compiling Network.Wai.UrlMap ( Network/Wai/UrlMap.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/UrlMap.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/wai-extra-3.0.24.3-65xT1tRIrUp6yFdl35WFE9
+Registering library for wai-extra-3.0.24.3..

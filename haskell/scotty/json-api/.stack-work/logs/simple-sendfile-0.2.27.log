@@ -1,0 +1,26 @@
+Configuring simple-sendfile-0.2.27...
+Preprocessing library for simple-sendfile-0.2.27..
+Building library for simple-sendfile-0.2.27..
+[1 of 4] Compiling Network.Sendfile.Types ( Network/Sendfile/Types.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Sendfile/Types.o )
+[2 of 4] Compiling Network.Sendfile.Linux ( .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Sendfile/Linux.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Sendfile/Linux.o )
+
+[;1mNetwork/Sendfile/Linux.hsc:12:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m12 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mNetwork/Sendfile/Linux.hsc:17:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Data.Int’ is redundant
+      except perhaps to import instances from ‘Data.Int’
+    To import instances alone, use: import Data.Int()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m17 |[0m[0m [;1m[35mimport Data.Int[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[3 of 4] Compiling Network.Sendfile ( Network/Sendfile.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Sendfile.o )
+[4 of 4] Compiling System.Linux.Sendfile ( System/Linux/Sendfile.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/Linux/Sendfile.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/simple-sendfile-0.2.27-2TzFC62eMnEJApcSMGU0P6
+Registering library for simple-sendfile-0.2.27..

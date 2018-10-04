@@ -1,0 +1,9 @@
+Configuring case-insensitive-1.2.0.11...
+Preprocessing library for case-insensitive-1.2.0.11..
+Building library for case-insensitive-1.2.0.11..
+[1 of 3] Compiling Data.CaseInsensitive.Internal ( Data/CaseInsensitive/Internal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/CaseInsensitive/Internal.o )
+[2 of 3] Compiling Data.CaseInsensitive ( Data/CaseInsensitive.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/CaseInsensitive.o )
+[3 of 3] Compiling Data.CaseInsensitive.Unsafe ( Data/CaseInsensitive/Unsafe.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/CaseInsensitive/Unsafe.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/case-insensitive-1.2.0.11-JzsMrRS387MIzth0WXukPt
+Registering library for case-insensitive-1.2.0.11..

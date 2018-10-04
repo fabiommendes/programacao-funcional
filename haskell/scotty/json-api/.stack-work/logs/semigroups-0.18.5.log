@@ -1,0 +1,7 @@
+Configuring semigroups-0.18.5...
+Preprocessing library for semigroups-0.18.5..
+Building library for semigroups-0.18.5..
+[1 of 1] Compiling Data.Semigroup.Generic ( src/Data/Semigroup/Generic.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Semigroup/Generic.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/semigroups-0.18.5-E4FVMc5VZAG98u64romz5
+Registering library for semigroups-0.18.5..

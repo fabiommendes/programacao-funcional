@@ -1,0 +1,13 @@
+Configuring psqueues-0.2.7.0...
+Preprocessing library for psqueues-0.2.7.0..
+Building library for psqueues-0.2.7.0..
+[1 of 7] Compiling Data.BitUtil     ( src/Data/BitUtil.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/BitUtil.o )
+[2 of 7] Compiling Data.IntPSQ.Internal ( src/Data/IntPSQ/Internal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/IntPSQ/Internal.o )
+[3 of 7] Compiling Data.IntPSQ      ( src/Data/IntPSQ.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/IntPSQ.o )
+[4 of 7] Compiling Data.OrdPSQ.Internal ( src/Data/OrdPSQ/Internal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/OrdPSQ/Internal.o )
+[5 of 7] Compiling Data.OrdPSQ      ( src/Data/OrdPSQ.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/OrdPSQ.o )
+[6 of 7] Compiling Data.HashPSQ.Internal ( src/Data/HashPSQ/Internal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/HashPSQ/Internal.o )
+[7 of 7] Compiling Data.HashPSQ     ( src/Data/HashPSQ.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/HashPSQ.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/psqueues-0.2.7.0-EOBahcwJRBLKSFPDyEGE1i
+Registering library for psqueues-0.2.7.0..

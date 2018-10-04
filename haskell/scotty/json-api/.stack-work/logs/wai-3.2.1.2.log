@@ -1,0 +1,8 @@
+Configuring wai-3.2.1.2...
+Preprocessing library for wai-3.2.1.2..
+Building library for wai-3.2.1.2..
+[1 of 2] Compiling Network.Wai.Internal ( Network/Wai/Internal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai/Internal.o )
+[2 of 2] Compiling Network.Wai      ( Network/Wai.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/Wai.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/wai-3.2.1.2-EB0ZtjEHWe3Lp1LCCKkONN
+Registering library for wai-3.2.1.2..

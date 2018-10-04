@@ -1,0 +1,8 @@
+Configuring exceptions-0.10.0...
+Preprocessing library for exceptions-0.10.0..
+Building library for exceptions-0.10.0..
+[1 of 2] Compiling Control.Monad.Catch ( src/Control/Monad/Catch.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Control/Monad/Catch.o )
+[2 of 2] Compiling Control.Monad.Catch.Pure ( src/Control/Monad/Catch/Pure.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Control/Monad/Catch/Pure.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/exceptions-0.10.0-IxXMfOng2Mk6dCHZvcRfv9
+Registering library for exceptions-0.10.0..

@@ -1,0 +1,7 @@
+Configuring cookie-0.4.4...
+Preprocessing library for cookie-0.4.4..
+Building library for cookie-0.4.4..
+[1 of 1] Compiling Web.Cookie       ( Web/Cookie.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Web/Cookie.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/cookie-0.4.4-IIzGenoEVgfBR4dsQKjig7
+Registering library for cookie-0.4.4..

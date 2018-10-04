@@ -1,0 +1,10 @@
+Configuring auto-update-0.1.4...
+Preprocessing library for auto-update-0.1.4..
+Building library for auto-update-0.1.4..
+[1 of 4] Compiling Control.AutoUpdate ( Control/AutoUpdate.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Control/AutoUpdate.o )
+[2 of 4] Compiling Control.AutoUpdate.Util ( Control/AutoUpdate/Util.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Control/AutoUpdate/Util.o )
+[3 of 4] Compiling Control.Debounce ( Control/Debounce.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Control/Debounce.o )
+[4 of 4] Compiling Control.Reaper   ( Control/Reaper.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Control/Reaper.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/auto-update-0.1.4-7k5Okr80TfS9UGlvnbDZr0
+Registering library for auto-update-0.1.4..

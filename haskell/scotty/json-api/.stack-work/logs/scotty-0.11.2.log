@@ -1,0 +1,12 @@
+Configuring scotty-0.11.2...
+Preprocessing library for scotty-0.11.2..
+Building library for scotty-0.11.2..
+[1 of 6] Compiling Web.Scotty.Internal.Types ( Web/Scotty/Internal/Types.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Web/Scotty/Internal/Types.o )
+[2 of 6] Compiling Web.Scotty.Util  ( Web/Scotty/Util.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Web/Scotty/Util.o )
+[3 of 6] Compiling Web.Scotty.Action ( Web/Scotty/Action.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Web/Scotty/Action.o )
+[4 of 6] Compiling Web.Scotty.Route ( Web/Scotty/Route.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Web/Scotty/Route.o )
+[5 of 6] Compiling Web.Scotty.Trans ( Web/Scotty/Trans.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Web/Scotty/Trans.o )
+[6 of 6] Compiling Web.Scotty       ( Web/Scotty.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Web/Scotty.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/scotty-0.11.2-IAO2EIEL5vo6ihurNAwb3l
+Registering library for scotty-0.11.2..

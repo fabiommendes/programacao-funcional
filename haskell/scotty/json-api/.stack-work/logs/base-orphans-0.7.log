@@ -1,0 +1,8 @@
+Configuring base-orphans-0.7...
+Preprocessing library for base-orphans-0.7..
+Building library for base-orphans-0.7..
+[1 of 2] Compiling Data.Orphans     ( src/Data/Orphans.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Orphans.o )
+[2 of 2] Compiling Data.Orphans.Prelude ( src/Data/Orphans/Prelude.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Orphans/Prelude.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/base-orphans-0.7-85wcea2rRmdArILlfYz5fz
+Registering library for base-orphans-0.7..

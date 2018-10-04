@@ -1,0 +1,11 @@
+Configuring vault-0.3.1.2...
+Preprocessing library for vault-0.3.1.2..
+Building library for vault-0.3.1.2..
+[1 of 5] Compiling Data.Unique.Really ( src/Data/Unique/Really.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Unique/Really.o )
+[2 of 5] Compiling Data.Vault.ST.Lazy ( src/Data/Vault/ST/Lazy.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Vault/ST/Lazy.o )
+[3 of 5] Compiling Data.Vault.Lazy  ( src/Data/Vault/Lazy.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Vault/Lazy.o )
+[4 of 5] Compiling Data.Vault.ST.Strict ( src/Data/Vault/ST/Strict.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Vault/ST/Strict.o )
+[5 of 5] Compiling Data.Vault.Strict ( src/Data/Vault/Strict.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Vault/Strict.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/vault-0.3.1.2-KIHoFtn9mD9bWhYaeFcaR
+Registering library for vault-0.3.1.2..

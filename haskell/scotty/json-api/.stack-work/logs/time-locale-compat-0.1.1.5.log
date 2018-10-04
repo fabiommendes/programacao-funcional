@@ -1,0 +1,7 @@
+Configuring time-locale-compat-0.1.1.5...
+Preprocessing library for time-locale-compat-0.1.1.5..
+Building library for time-locale-compat-0.1.1.5..
+[1 of 1] Compiling Data.Time.Locale.Compat ( src/Data/Time/Locale/Compat.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Time/Locale/Compat.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/time-locale-compat-0.1.1.5-DDznVvFVEsmlk0WqJppPg
+Registering library for time-locale-compat-0.1.1.5..

@@ -1,0 +1,8 @@
+Configuring th-abstraction-0.2.8.0...
+Preprocessing library for th-abstraction-0.2.8.0..
+Building library for th-abstraction-0.2.8.0..
+[1 of 2] Compiling Language.Haskell.TH.Datatype.Internal ( src/Language/Haskell/TH/Datatype/Internal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Language/Haskell/TH/Datatype/Internal.o )
+[2 of 2] Compiling Language.Haskell.TH.Datatype ( src/Language/Haskell/TH/Datatype.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Language/Haskell/TH/Datatype.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/th-abstraction-0.2.8.0-Ct896m4STpK8GA15Cl5y88
+Registering library for th-abstraction-0.2.8.0..

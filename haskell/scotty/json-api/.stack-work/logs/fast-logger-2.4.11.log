@@ -1,0 +1,14 @@
+Configuring fast-logger-2.4.11...
+Preprocessing library for fast-logger-2.4.11..
+Building library for fast-logger-2.4.11..
+[1 of 8] Compiling System.Log.FastLogger.Date ( System/Log/FastLogger/Date.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/Log/FastLogger/Date.o )
+[2 of 8] Compiling System.Log.FastLogger.File ( System/Log/FastLogger/File.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/Log/FastLogger/File.o )
+[3 of 8] Compiling System.Log.FastLogger.FileIO ( System/Log/FastLogger/FileIO.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/Log/FastLogger/FileIO.o )
+[4 of 8] Compiling System.Log.FastLogger.IORef ( System/Log/FastLogger/IORef.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/Log/FastLogger/IORef.o )
+[5 of 8] Compiling System.Log.FastLogger.LogStr ( System/Log/FastLogger/LogStr.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/Log/FastLogger/LogStr.o )
+[6 of 8] Compiling System.Log.FastLogger.IO ( System/Log/FastLogger/IO.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/Log/FastLogger/IO.o )
+[7 of 8] Compiling System.Log.FastLogger.Logger ( System/Log/FastLogger/Logger.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/Log/FastLogger/Logger.o )
+[8 of 8] Compiling System.Log.FastLogger ( System/Log/FastLogger.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/Log/FastLogger.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/fast-logger-2.4.11-HaEgayyYLUiJI8BkcVuXOq
+Registering library for fast-logger-2.4.11..

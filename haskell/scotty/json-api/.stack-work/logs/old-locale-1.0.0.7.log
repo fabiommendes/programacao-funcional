@@ -1,0 +1,7 @@
+Configuring old-locale-1.0.0.7...
+Preprocessing library for old-locale-1.0.0.7..
+Building library for old-locale-1.0.0.7..
+[1 of 1] Compiling System.Locale    ( System/Locale.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/Locale.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/old-locale-1.0.0.7-26K7wLFR2jK44UeOklvTCh
+Registering library for old-locale-1.0.0.7..

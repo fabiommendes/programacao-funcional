@@ -1,0 +1,7 @@
+Configuring data-default-class-0.1.2.0...
+Preprocessing library for data-default-class-0.1.2.0..
+Building library for data-default-class-0.1.2.0..
+[1 of 1] Compiling Data.Default.Class ( Data/Default/Class.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Default/Class.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/data-default-class-0.1.2.0-2kYzERBLX3wJoPfj7mwVvW
+Registering library for data-default-class-0.1.2.0..

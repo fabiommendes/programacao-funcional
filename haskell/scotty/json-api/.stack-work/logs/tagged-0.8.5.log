@@ -1,0 +1,8 @@
+Configuring tagged-0.8.5...
+Preprocessing library for tagged-0.8.5..
+Building library for tagged-0.8.5..
+[1 of 2] Compiling Data.Proxy.TH    ( src/Data/Proxy/TH.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Proxy/TH.o )
+[2 of 2] Compiling Data.Tagged      ( src/Data/Tagged.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Tagged.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/tagged-0.8.5-4K9kIYSwDGR863J7NMxdyP
+Registering library for tagged-0.8.5..

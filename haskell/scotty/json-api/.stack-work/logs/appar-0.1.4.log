@@ -1,0 +1,11 @@
+Configuring appar-0.1.4...
+Preprocessing library for appar-0.1.4..
+Building library for appar-0.1.4..
+[1 of 5] Compiling Text.Appar.Input ( Text/Appar/Input.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Text/Appar/Input.o )
+[2 of 5] Compiling Text.Appar.Parser ( Text/Appar/Parser.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Text/Appar/Parser.o )
+[3 of 5] Compiling Text.Appar.LazyByteString ( Text/Appar/LazyByteString.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Text/Appar/LazyByteString.o )
+[4 of 5] Compiling Text.Appar.ByteString ( Text/Appar/ByteString.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Text/Appar/ByteString.o )
+[5 of 5] Compiling Text.Appar.String ( Text/Appar/String.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Text/Appar/String.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/appar-0.1.4-J5mdtVuytVIKFPXD2MXW4E
+Registering library for appar-0.1.4..

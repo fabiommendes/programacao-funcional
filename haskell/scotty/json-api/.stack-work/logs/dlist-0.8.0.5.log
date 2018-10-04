@@ -1,0 +1,7 @@
+Configuring dlist-0.8.0.5...
+Preprocessing library for dlist-0.8.0.5..
+Building library for dlist-0.8.0.5..
+[1 of 1] Compiling Data.DList       ( Data/DList.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/DList.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/chips/.stack/snapshots/x86_64-linux-tinfo6/lts-12.11/8.4.3/lib/x86_64-linux-ghc-8.4.3/dlist-0.8.0.5-I6CwXwt8UvhK996Lp3Q3y
+Registering library for dlist-0.8.0.5..
