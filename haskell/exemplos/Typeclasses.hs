@@ -17,6 +17,7 @@ class Container c where
     myFirst :: c a -> Maybe a
     myLast :: c a -> Maybe a
     isEmpty :: c a -> Bool
+    
 
 instance Container Point where
     nComponents pt = 2

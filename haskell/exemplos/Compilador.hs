@@ -4,16 +4,24 @@ import Data.List
 data Result a = Fail | Success String a deriving (Eq, Show, Functor)
 type Runner a = (String -> Result a)
 data Parser a = Parser String (Runner a)
-data Chain a  = Chain [Char] [a] deriving (Eq, Show)
-
-instance Functor Chain where
-    fmap f (Chain cs xs) = Chain cs (f `fmap` xs)
-
+data Chain a  = Chain [Char] [a] deriving (Eq, Show, Functor)
 
 (=/=) = (/=) -- porque pode :)
 infix 4 =/= -- mesma precedencia do /=
 singleton = (:[])
-(??) = (\_->()) <$>  ((:[(,,)]) (,,))
+(??) = (\_->()) <$> ((:[(,,)]) (,,))
+
+-- CONVERTER PARA HASKELL
+{-
+
+((~({}+[])+~({}+[]))*(~({}+[])+~({}+[]))*(~({}+[])+~({}+[]))
+*(~({}+[])+~({}+[])))+((~({}+[])+~({}+[]))*(~({}+[])
++~({}+[]))*(~({}+[])+~({}+[]))*(~({}+[])+~({}+[])))
++((~({}+[])+~({}+[]))*(~({}+[])+~({}+[])))+((~({}+[])
++~({}+[]))*(~({}+[])+~({}+[])))+(~({}+[])*~({}+[]))
++(~({}+[])*~({}+[]))
+
+-}
 
 instance Functor Parser where
     fmap f (Parser st g) = Parser st (\x -> f <$> g x)
@@ -81,11 +89,26 @@ atom = oneOf
 
 -- IMPLEMENTAR DIREITO!!!
 calc :: Chain Double -> Double
-calc x = 42
+calc x = calcPlus (calcMul x)
+
+calcMul :: Chain Double -> Chain Double
+calcMul (Chain [] nums) = Chain [] nums
+calcMul (Chain (op:ops) (x:y:xs)) 
+    | op == '*' = calcMul $ Chain ops ((x * y):xs)
+    | op == '/' = calcMul $ Chain ops ((x / y):xs)
+    | otherwise = Chain (op:ops') (x:xs')
+    where 
+        Chain ops' xs' = calcMul $ Chain ops (y:xs)
+
+        
+calcPlus :: Chain Double -> Double
+calcPlus (Chain [] (x:xs)) = x 
+calcPlus (Chain ('+':ops) (x:y:xs)) = calcPlus $ Chain ops ((x+y):xs)
+calcPlus (Chain ('-':ops) (x:y:xs)) = calcPlus $ Chain ops ((x-y):xs)
+
 
 mkChain :: Double -> Char -> Chain Double -> Chain Double
-mkChain n op chain = chain 
-
+mkChain n op (Chain ops nums) = undefined 
 
 
 mkSingle :: Runner a -> Runner (Chain a)
